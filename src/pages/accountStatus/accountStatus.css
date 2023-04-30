@@ -1,0 +1,12 @@
+.account-status {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+}
+.account-status-message {
+   display: flex;
+}
+.account-status-message-link {
+   margin-left: 5px;
+}

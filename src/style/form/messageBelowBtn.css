@@ -1,0 +1,19 @@
+.message-under-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   font-weight: 300;
+}
+
+.message-under-btn > p {
+   font-style: italic;
+   color: var(--tan-crayola);
+   margin-right: 10px;
+}
+
+.message-under-btn-link {
+   color: var(--tenne-tawny);
+   border-radius: 25px;
+   text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.recipes {
+   background-color: var(--cultured);
+}
+
+.recipes-container {
+   /* max-width: 1400px; */
+   flex: 5;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: auto;
+}

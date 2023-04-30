@@ -1,0 +1,10 @@
+.box-shad {
+   background-color: #f6f6f6;
+}
+
+.box-shad-container {
+   max-width: 1400px;
+   margin: auto;
+
+   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}

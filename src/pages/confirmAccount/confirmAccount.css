@@ -1,0 +1,28 @@
+.account-verify {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 3rem;
+}
+
+.account-verify-message {
+   margin-bottom: 20px;
+   font-size: 18px;
+   text-align: center;
+}
+
+.account-verify-button {
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   font-size: 16px;
+   background-color: var(--tan-crayola);
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin: 1rem;
+}
+
+.account-verify-button:hover {
+   background-color: #0077b6;
+}

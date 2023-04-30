@@ -1,0 +1,174 @@
+.general-form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Open Sans', sans-serif;
+   overflow: hidden;
+}
+.general-form-container {
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.general-form-box-wrapper {
+   max-width: 600px;
+   background: var(--cultured);
+   border-radius: 4px;
+   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+   margin: auto;
+   overflow: hidden;
+   padding: 3rem;
+}
+
+.general-form-group {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 0 1.2rem;
+   padding: 1rem 0;
+}
+
+.general-form-group-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.general-form-group:last-child {
+   margin: 0;
+}
+.general-form-group .general-form-label {
+   display: block;
+   margin: 0 0 0.9rem;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+}
+
+.general-form-group .general-form-input {
+   outline: none;
+   display: block;
+   background-color: rgba(235, 226, 200, 0.384);
+   width: 100%;
+   border: 0;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding: 12px 20px;
+   color: rgba(0, 0, 0, 0.6);
+   font-family: inherit;
+   font-size: inherit;
+   font-weight: 500;
+   line-height: inherit;
+   transition: 0.3s ease;
+}
+.general-form-group .general-form-input:focus {
+   color: rgba(7, 7, 7, 0.8);
+   background: rgba(235, 226, 200, 0.767);
+}
+
+.general-form-group-btn .general-form-btn {
+   outline: none;
+   background: var(--tan-crayola);
+   max-width: fit-content;
+   min-width: 200px;
+   border: 0;
+   border-radius: 4px;
+   padding: 12px 20px;
+   color: #fff;
+   font-family: inherit;
+   font-size: inherit;
+   font-weight: 500;
+   line-height: inherit;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+.general-form-group-btn .general-form-btn:hover {
+   background: var(--tenne-tawny);
+}
+
+.general-form-group-btn .general-form-btn:disabled {
+   background-color: rgb(102, 99, 99);
+}
+
+.general-form-group .form-remember {
+   font-size: 12px;
+   font-weight: 400;
+   letter-spacing: 0;
+   text-transform: none;
+}
+.general-form-group .form-remember input[type='checkbox'] {
+   display: inline-block;
+   width: auto;
+   margin: 0 10px 0 0;
+}
+.general-form-group .form-recovery {
+   color: var(--tan-crayola);
+   font-size: 12px;
+   text-decoration: none;
+}
+
+.form-header {
+   margin: 0 0 30px;
+}
+.form-header h1 {
+   padding: 4px 0;
+   color: var(--tan-crayola);
+   font-size: 24px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.general-form-error {
+   padding-top: 20px;
+   text-align: center;
+   color: var(--red-orange-color-wheel);
+   font-style: italic;
+   font-size: 0.9rem;
+}
+.general-form-success {
+   padding-top: 20px;
+   text-align: center;
+   color: var(--bitter-lemon);
+   font-style: italic;
+}
+
+.general-form-submit-message {
+   background-color: var(--cultured);
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 5em;
+}
+
+@media only screen and (max-width: 800px) {
+   .general-form-container {
+      width: 85%;
+      margin: auto;
+   }
+
+   .general-form-box-wrapper {
+      padding: 2rem;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .general-form-container {
+      width: 95%;
+      margin: auto;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .general-form-container {
+      width: 95%;
+      margin: auto;
+   }
+
+   .general-form-box-wrapper {
+      padding: 1.5rem;
+   }
+}

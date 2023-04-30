@@ -1,0 +1,111 @@
+#fileInput {
+   display: none;
+}
+
+.user-settings {
+   display: flex;
+}
+.user-settings-wrapper {
+   max-width: 1200px;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.settings-title {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.settings-update-title {
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: #d4a373;
+}
+
+.settings-delete-title {
+   font-size: 0.9rem;
+   color: #e14d2a;
+   padding: 5px 8px;
+   cursor: pointer;
+   border: 1px solid;
+   border-radius: 5px;
+   transition: 0.3s ease-in-out;
+}
+
+.settings-delete-title:hover {
+   background-color: #e14d2a;
+   color: #fff;
+   transition: 0.3s;
+}
+
+.user-settings-form {
+   display: flex;
+   flex-direction: column;
+}
+
+/* .settings-profile-pic {
+   margin: 15px 0;
+   display: flex;
+   align-items: center;
+} */
+
+.settings-profile-pic > img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.settings-pp-icon {
+   margin-left: 10px;
+   cursor: pointer;
+   color: #fff;
+   background-color: #d4a373;
+   border-radius: 50%;
+   padding: 5px;
+}
+
+.user-settings-form > label {
+   margin-top: 20px;
+   color: #4b4b4b;
+}
+
+.user-settings-form > input {
+   color: rgb(113, 109, 109);
+   margin: 10px 0;
+   width: 500px;
+   height: 30px;
+   border: none;
+   border-bottom: 1px solid rgb(224, 220, 220);
+}
+
+.user-settings-form > input:focus {
+   outline-style: none;
+   border-bottom: 2px solid #d4a373;
+}
+
+.settings-submit {
+   align-self: center;
+   padding: 10px 40px;
+   cursor: pointer;
+   border: none;
+   background-color: #d4a373;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 1.2rem;
+   transition: 0.3s ease-in-out;
+}
+
+.settings-submit:hover {
+   background-color: #e14d2a;
+   transition: 0.3s ease-in-out;
+}
+
+.success-txt {
+   color: rgb(14, 202, 14);
+   text-align: center;
+   font-style: italic;
+   margin-top: 2rem;
+}
